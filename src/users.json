@@ -1,22 +1,37 @@
 [
     {
-      "name": "Richard Hendricks",
-      "url": "./images/1.jpg"
+        "name": "Andrzej Kozinski",
+        "dogName": "Lucky",
+        "url": "./images/1.jpg"
     },
     {
-      "name": "Erlich Bachman",
-      "url": "./images/2.jpg"
+        "name": "Erlich Bachman",
+        "dogName": "Rex",
+        "url": "./images/2.jpg"
     },
     {
-      "name": "Monica Hall",
-      "url": "./images/3.jpg"
+        "name": "Monica Hall",
+        "dogName": "Cindy",
+        "url": "./images/3.jpg"
     },
     {
-      "name": "Jared Dunn",
-      "url": "./images/4.jpg"
+        "name": "Jared Dunn",
+        "dogName": "Bella",
+        "url": "./images/4.jpg"
     },
     {
-      "name": "Dinesh Chugtai",
-      "url": "./images/5.jpg"
+        "name": "Jared Leto",
+        "dogName": "Luna",
+        "url": "./images/5.jpg"
+    },
+    {
+        "name": "Hugh Jackman",
+        "dogName": "Daisy",
+        "url": "./images/6.jpg"
+    },
+    {
+        "name": "Chris Evans",
+        "dogName": "Zoe",
+        "url": "./images/7.jpg"
     }
-  ]
+]

@@ -25,7 +25,7 @@ function CardBox () {
         {characters.map((character) =>
           <TinderCard className='swipe' key={character.name} onSwipe={(dir) => swiped(dir, character.name)} onCardLeftScreen={() => outOfFrame(character.name)}>
             <div style={{ backgroundImage: 'url(' + character.url + ')' }} className='card'>
-              <h3>{"Firebase 2 "+character.dogName}<br/>{"Owner name: "+character.name}</h3>
+              <h3>{"Firebase 3 "+character.dogName}<br/>{"Owner name: "+character.name}</h3>
               
             </div>
           </TinderCard>

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import TinderCard from '../react-tinder-card/index'
 import TinderCard from 'react-tinder-card'
 import db from "../../users.json"
 
@@ -31,7 +30,7 @@ function CardBox () {
           </TinderCard>
         )}
       </div>
-      {lastDirection ? <h2 className='infoText'>You swiped {lastDirection}</h2> : <h2 className='infoText' />}
+      {lastDirection ? <h2 className='infoText'>You swiped {lastDirection}</h2> : <h2 className='infoText'></h2>}
     </div>
   )
 }

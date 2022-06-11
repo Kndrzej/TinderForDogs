@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import CardBox from './components/CardBox';
 import React from 'react'

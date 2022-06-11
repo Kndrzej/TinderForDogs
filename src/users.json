@@ -1,35 +1,49 @@
 [
     {
+        "login": "user1",
+        "password": "zaq1@WSX",
         "name": "Andrzej Kozinski",
         "dogName": "Lucky",
         "url": "./images/1.jpg"
     },
     {
+        "login": "user2",
+        "password": "zaq1@WSX",
         "name": "Erlich Bachman",
         "dogName": "Rex",
         "url": "./images/2.jpg"
     },
     {
+        "login": "user3",
+        "password": "zaq1@WSX",
         "name": "Monica Hall",
         "dogName": "Cindy",
         "url": "./images/3.jpg"
     },
     {
+        "login": "user4",
+        "password": "zaq1@WSX",
         "name": "Jared Dunn",
         "dogName": "Bella",
         "url": "./images/4.jpg"
     },
     {
+        "login": "user5",
+        "password": "zaq1@WSX",
         "name": "Jared Leto",
         "dogName": "Luna",
         "url": "./images/5.jpg"
     },
     {
+        "login": "user6",
+        "password": "zaq1@WSX",
         "name": "Hugh Jackman",
         "dogName": "Daisy",
         "url": "./images/6.jpg"
     },
     {
+        "login": "user7",
+        "password": "zaq1@WSX",
         "name": "Chris Evans",
         "dogName": "Zoe",
         "url": "./images/7.jpg"

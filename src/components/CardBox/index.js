@@ -30,7 +30,7 @@ function CardBox () {
           </TinderCard>
         )}
       </div>
-      {lastDirection ? <h2 className='infoText'>You swiped {lastDirection}</h2> : <h2 className='infoText'></h2>}
+      {lastDirection && <h2 className='infoText'>You swiped {lastDirection}</h2>}
     </div>
   )
 }

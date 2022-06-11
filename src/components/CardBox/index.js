@@ -20,12 +20,13 @@ function CardBox () {
     <div>
       <link href='https://fonts.googleapis.com/css?family=Damion&display=swap' rel='stylesheet' />
       <link href='https://fonts.googleapis.com/css?family=Alatsi&display=swap' rel='stylesheet' />
-      <h1>React Tinder Card</h1>
+      <h1>Tinder for Dogs</h1>
       <div className='cardContainer'>
         {characters.map((character) =>
           <TinderCard className='swipe' key={character.name} onSwipe={(dir) => swiped(dir, character.name)} onCardLeftScreen={() => outOfFrame(character.name)}>
             <div style={{ backgroundImage: 'url(' + character.url + ')' }} className='card'>
-              <h3>{character.name}</h3>
+              <h3>{"Dog name: "+character.dogName}<br/>{"Owner name: "+character.name}</h3>
+              
             </div>
           </TinderCard>
         )}

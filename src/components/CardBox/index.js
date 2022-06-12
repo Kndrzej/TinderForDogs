@@ -31,7 +31,7 @@ function CardBox () {
     <div>
       <link href='https://fonts.googleapis.com/css?family=Damion&display=swap' rel='stylesheet' />
       <link href='https://fonts.googleapis.com/css?family=Alatsi&display=swap' rel='stylesheet' />
-      <h1>Hello {state.character}!</h1>
+      <h1 id="customLoginInfo">Hello {state.character}!</h1>
       <div className='cardContainer'>
         <TinderCard className='swipe' key="last" preventSwipe={['left','right','up','down']} swipeThreshold={0}>
           <div className='card' style={{backgroundColor: "#ebb029", display: "flex", alignItems: "center"}}>

@@ -24,9 +24,9 @@ export default function LoginPage() {
     return (
         <>
             <p>{invalidCredentials && "Invalid creadentials, try one more time"}</p>
-            <TextField variant="outlined" label="login" style={{margin: "5px"}} value={login} onChange={(e)=>{setLogin(e.target.value)}}/>
-            <TextField variant="outlined" label="password" style={{margin: "5px"}} value={password} onChange={(e)=>{setPassword(e.target.value)}} type="password"/>
-            <Button variant="contained" onClick={()=>{handleCredentialsValidation(login, password, allUsers)}} style={{margin: "5px"}}>Sign in</Button>
+            <TextField variant="outlined" label="login" style={{margin: "5px"}} value={login} onChange={(e)=>{setLogin(e.target.value)}} id="login"/>
+            <TextField variant="outlined" label="password" style={{margin: "5px"}} value={password} onChange={(e)=>{setPassword(e.target.value)}} type="password" id="password"/>
+            <Button variant="contained" onClick={()=>{handleCredentialsValidation(login, password, allUsers)}} style={{margin: "5px"}} id="signIn">Sign in</Button>
             <Button variant="contained" style={{margin: "5px"}}><Link to="/register"> Register </Link></Button>
         </>
     )

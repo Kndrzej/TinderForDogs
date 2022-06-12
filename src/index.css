@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
   overflow: hidden;
   /* background: linear-gradient(#fff, #999); */
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(#3ee94c, #fbff00);
 }
 
 #root>div {
@@ -36,13 +36,13 @@ body {
 }
 
 h1 {
-  font-family: 'Damion', cursive;
-  color: #fff;
+  font-family: 'sans-serif';
+  color: rgb(0, 0, 0);
   text-shadow: 0px 0px 60px 0px rgba(0,0,0,0.30);
 }
 
 h2 {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .swipe {
@@ -52,17 +52,17 @@ h2 {
 .cardContainer {
   width: 90vw;
   max-width: 260px;
-  height: 300px;
+  height: 400px;
 }
 
 .card {
   position: relative;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   width: 80vw;
   max-width: 260px;
-  height: 300px;
-  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.30);
-  border-radius: 20px;
+  height: 400px;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.30);
+  border-radius: 10px;
   background-size: cover;
   background-position: center;
 }
@@ -80,7 +80,7 @@ h2 {
   position: absolute;
   bottom: 0;
   margin: 10px;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .infoText {
@@ -88,7 +88,7 @@ h2 {
   height: 28px;
   justify-content: center;
   display: flex;
-  color: #fff;
+  color: rgb(0, 0, 0);
   animation-name: popup;
   animation-duration: 800ms;
 }
@@ -103,7 +103,7 @@ h2 {
   padding: 10px;
   border-radius: 5px;
   border: none;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 18px;
   background-color: #9198e5;
   transition: 200ms;

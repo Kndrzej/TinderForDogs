@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import TinderCard from 'react-tinder-card'
+import { useLocation } from "react-router-dom";
 import db from "../../users.json"
 import "./index.css"
 
@@ -7,7 +8,8 @@ function CardBox () {
   const characters = db
   const [lastDirection, setLastDirection] = useState()
   const [match, setMatch] = useState(false)
-
+  const {state} = useLocation()
+ 
 
   const swiped = (direction, nameToDelete) => {
     const date = new Date()
@@ -29,7 +31,7 @@ function CardBox () {
     <div>
       <link href='https://fonts.googleapis.com/css?family=Damion&display=swap' rel='stylesheet' />
       <link href='https://fonts.googleapis.com/css?family=Alatsi&display=swap' rel='stylesheet' />
-      <h1>Tinder for Dogs Firebase 21</h1>
+      <h1>Hello {state.character}!</h1>
       <div className='cardContainer'>
         <TinderCard className='swipe' key="last" preventSwipe={['left','right','up','down']} swipeThreshold={0}>
           <div className='card' style={{backgroundColor: "#ebb029", display: "flex", alignItems: "center"}}>

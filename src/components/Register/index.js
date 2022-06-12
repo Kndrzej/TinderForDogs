@@ -12,7 +12,7 @@ export default function Register(){
 
     const checkProvidedData = (login, password, name, dogName) => {
         if(login && password && name && dogName){
-            navigate("/swiping")
+            navigate("/swiping", {state: {character: login}})
         }
         else{
             setInvalidData(true)

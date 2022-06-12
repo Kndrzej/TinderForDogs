@@ -13,7 +13,7 @@ export default function LoginPage() {
     const checkCredentials = (login, password) => {
         const properUser = allUsers.find(elem => elem.login === login)
         if(properUser && properUser.password === password){
-            navigate("/swiping")
+            navigate("/swiping", {state:{character: login}})
         }
         else{
             setInvalidCredentials(true)

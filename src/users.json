@@ -47,5 +47,96 @@
         "name": "Chris Evans",
         "dogName": "Zoe",
         "url": "./images/7.jpg"
+    },
+    {
+        "login": "user8",
+        "password": "zaq1@WSX",
+        "name": "Hugh Jackman",
+        "dogName": "Cherry",
+        "url": "./images/8.jpg"
+    },
+    {
+        "login": "user9",
+        "password": "zaq1@WSX",
+        "name": "Chris Pratt",
+        "dogName": "Lemon",
+        "url": "./images/9.jpg"
+    },
+    {
+        "login": "user10",
+        "password": "zaq1@WSX",
+        "name": "Matthew Mcconhegu",
+        "dogName": "Coconut",
+        "url": "./images/10.jpg"
+    },
+    {
+        "login": "user11",
+        "password": "zaq1@WSX",
+        "name": "Jeniffer Lopez",
+        "dogName": "Kiwi",
+        "url": "./images/11.jpg"
+    },
+    {
+        "login": "user12",
+        "password": "zaq1@WSX",
+        "name": "Barbara Straisand",
+        "dogName": "Mango",
+        "url": "./images/12.jpg"
+    },
+    {
+        "login": "user13",
+        "password": "zaq1@WSX",
+        "name": "Al Yankovic",
+        "dogName": "Doja",
+        "url": "./images/13.jpg"
+    },
+    {
+        "login": "user14",
+        "password": "zaq1@WSX",
+        "name": "Gross Gore",
+        "dogName": "Lopez",
+        "url": "./images/14.jpg"
+    },
+    {
+        "login": "user15",
+        "password": "zaq1@WSX",
+        "name": "Krystyna Czubowna",
+        "dogName": "Aretha",
+        "url": "./images/15.jpg"
+    },
+    {
+        "login": "user16",
+        "password": "zaq1@WSX",
+        "name": "Genshin Impact",
+        "dogName": "Suni",
+        "url": "./images/16.jpg"
+    },
+    {
+        "login": "user17",
+        "password": "zaq1@WSX",
+        "name": "Han Solo",
+        "dogName": "Simone",
+        "url": "./images/17.jpg"
+    },
+    {
+        "login": "user18",
+        "password": "zaq1@WSX",
+        "name": "Brat Pitt",
+        "dogName": "Naomi",
+        "url": "./images/18.jpg"
+    },
+    {
+        "login": "user19",
+        "password": "zaq1@WSX",
+        "name": "Piotr Adamczyk",
+        "dogName": "Tom",
+        "url": "./images/19.jpg"
+    },
+    {
+        "login": "user20",
+        "password": "zaq1@WSX",
+        "name": "Edward Norton",
+        "dogName": "Katie",
+        "url": "./images/20.jpg"
     }
 ]

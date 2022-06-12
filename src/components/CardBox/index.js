@@ -1,12 +1,22 @@
 import React, { useState } from 'react'
 import TinderCard from 'react-tinder-card'
 import db from "../../users.json"
+import "./index.css"
 
 function CardBox () {
   const characters = db
   const [lastDirection, setLastDirection] = useState()
+  const [match, setMatch] = useState(false)
+
 
   const swiped = (direction, nameToDelete) => {
+    const date = new Date()
+    if(date % 2 === 0 && direction === "right"){
+      setMatch(true)
+    }
+    else{
+      setMatch(false)
+    }
     console.log('removing: ' + nameToDelete)
     setLastDirection(direction)
   }
@@ -30,7 +40,7 @@ function CardBox () {
           </TinderCard>
         )}
       </div>
-      {lastDirection && <h2 className='infoText'>You swiped {lastDirection}</h2>}
+      {lastDirection && <h2 className='infoText'>You swiped {lastDirection} {match && "and it was a match"}</h2>}
     </div>
   )
 }

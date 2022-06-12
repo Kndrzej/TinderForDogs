@@ -26,7 +26,7 @@ export default function Register(){
             navigate("/swiping", {state:{character: login}})
         }
         else{
-            setInvalidCredentials(true)
+            setInvalidData(true)
         }
     }
 

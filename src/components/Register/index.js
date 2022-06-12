@@ -10,16 +10,7 @@ export default function Register(){
     const [dogName, setDogName] = useState("")
     const [invalidData, setInvalidData] = useState(false)
     const navigate = useNavigate()
-
-    // const checkProvidedData = (login, password, name, dogName) => {
-    //     if(login && password && name && dogName){
-    //         navigate("/swiping", {state: {character: login}})
-    //     }
-    //     else{
-    //         setInvalidData(true)
-    //     }
-    // }
-
+    
     const handleCredentialsValidation = (login, password, name, dogName) => {
         const areCredentialsValid = checkProvidedData(login, password, name, dogName)
         if(areCredentialsValid){

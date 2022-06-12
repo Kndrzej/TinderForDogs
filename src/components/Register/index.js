@@ -1,7 +1,6 @@
 import React, {useState } from 'react'
 import {TextField, Button} from '@mui/material'
 import { useNavigate } from "react-router-dom";
-import allUsers from "../../users.json"
 
 export default function Register(){
     const [login, setLogin] = useState("")
@@ -13,7 +12,7 @@ export default function Register(){
 
     const checkProvidedData = (login, password, name, dogName) => {
         if(login && password && name && dogName){
-            navigate("/")
+            navigate("/swiping")
         }
         else{
             setInvalidData(true)

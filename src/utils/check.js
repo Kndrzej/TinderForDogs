@@ -8,3 +8,12 @@ export const checkCredentials = (login, password, allUsers) => {
         return false
     }
 }
+
+export const checkProvidedData = (login, password, name, dogName) => {
+    if(login && password && name && dogName){
+        return true
+    }
+    else{
+        return false
+    }
+}

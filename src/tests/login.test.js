@@ -7,12 +7,18 @@ it('valid user credentials', () => {
     expect(areValid).toBeTruthy()
 });
 
-it('invalidvalid user credentials - invalid login', () => {
+it('invali user credentials - invalid login', () => {
     const areValid = checkCredentials("user8", "zaq1@WSX", allUsers)
     expect(areValid).toBeFalsy()
 });
 
-it('invalidvalid user credentials - invalid password', () => {
+it('invalid user credentials - invalid password', () => {
     const areValid = checkCredentials("user6", "zaq2@WSX", allUsers)
     expect(areValid).toBeFalsy()
 });
+
+it('invalid user credentials - invalid password', () => {
+    const areValid = checkCredentials("user6", "zaq2@WSX", allUsers)
+    expect(areValid).toBeFalsy()
+});
+
